@@ -1,7 +1,5 @@
 # Django_Feedback_Form
 #With Celery task management
-#Example
-
 from celery import Celery
 
 app = Celery('hello', broker='amqp://guest@localhost//')
